@@ -88,6 +88,7 @@ function put(request, response) {
         }
     	} else {
         response.end("Please login via HTTP POST\n");
+    	}
 };
 
 app.listen(8000);
